@@ -1,4 +1,4 @@
-public class AsciArtHarf {
+public class AsciiArtHarf {
     public static void main (String[] args) {
       // ASCII ART İLE C HARFİ YAZILIŞI
         System.out.println ("    / / / / / / / / / ");
@@ -12,3 +12,4 @@ public class AsciArtHarf {
         System.out.println ("   / / / / / / / / / ");
     }
 }
+
