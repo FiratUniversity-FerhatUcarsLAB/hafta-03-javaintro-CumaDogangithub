@@ -1,8 +1,8 @@
 public class AsciiArtIsim {
     public static void main (String[] args) {
-        // ASCII ART İLE CUMA KELİMESİNİN YAZILIŞI
+        // ASCII ART İLE C HARFİ YAZILIŞI
 
-
+        System.out.println("\n");
         System.out.println ("    / / / / / / / / /    /                    /            /\\                /\\                   /\\               ");
         System.out.println ("  /                      /                    /           /  \\              /  \\                 /  \\              ");
         System.out.println (" /                       /                    /          /    \\            /    \\               /    \\             ");
@@ -12,6 +12,6 @@ public class AsciiArtIsim {
         System.out.println (" /                         /               /         /            \\    /            \\       /            \\         ");
         System.out.println ("  /                         /            /          /              \\  /              \\     /              \\        ");
         System.out.println ("   / / / / / / / / /         / / / / / /           /                \\/                \\   /                \\       ");
+        System.out.println("\n");
     }
 }
-
