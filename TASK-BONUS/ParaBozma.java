@@ -1,6 +1,10 @@
 public class ParaBozma {
     public static void main(String[] args) {
-        int money = 341;
-        System.out.println (money + " TL = 3x100 , 2x20 , 1x1");
+        // Üç Basamaklı bir sayı giriniz
+        int money = 648;
+        int yuzlerBas= Math.floorDiv(money,100);
+        int onlarBas= Math.floorDiv(money % 100,10);
+        int birlerBas= money % 100 % 10;
+        System.out.println (money + " TL = "+yuzlerBas+"x100 + "+onlarBas+"x10 + "+birlerBas+"x1 " );
     }
 }
